@@ -1,0 +1,5 @@
+psutil
+requests
+selenium
+keyboard
+pyperclip
