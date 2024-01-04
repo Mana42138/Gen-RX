@@ -28,10 +28,10 @@ files_path = os.path.dirname(os.path.abspath(sys.argv[0]))
 def Main():
     print("Starting...")
     Request_Links = {
-        "register.py": "https://raw.githubusercontent.com/Mana42138/account-login/main/register.py",
-        "auth.py": "https://raw.githubusercontent.com/Mana42138/account-login/main/auth.py",
-        "auto_copy.py": "https://raw.githubusercontent.com/Mana42138/account-login/main/auto_copy.py",
-        "main.py": "https://raw.githubusercontent.com/Mana42138/account-login/main/main.py"
+        "register.py": "https://raw.githubusercontent.com/Mana42138/Gen-RX/main/register.py",
+        "auth.py": "https://raw.githubusercontent.com/Mana42138/Gen-RX/main/auth.py",
+        "auto_copy.py": "https://raw.githubusercontent.com/Mana42138/Gen-RX/main/auto_copy.py",
+        "main.py": "https://raw.githubusercontent.com/Mana42138/Gen-RX/main/main.py"
         }
     
     for item, value in Request_Links.items():
