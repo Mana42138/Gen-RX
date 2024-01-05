@@ -3,4 +3,4 @@ requests
 selenium
 keyboard
 pyperclip
-regex
+browser_cookie3
