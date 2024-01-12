@@ -5,3 +5,4 @@ keyboard
 pyperclip
 browser_cookie3
 roblox_auth
+pywin32
